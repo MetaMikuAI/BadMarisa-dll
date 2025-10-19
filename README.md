@@ -35,6 +35,10 @@ Marisa!ReturnTheBook! Demo
 
 3. 将 mod (dll 文件) 放到 `./BepInEx/plugins/` 下重启游戏即可
 
+## 关于开源
+
+涉及部分敏感代码，可能在之后主动开源
+
 ## 感谢
 
 感谢 Narrow & 月咏 两位创作者为我们带来如此精致、有趣、又充满灵气的《Marisa! Return The Book!》。
