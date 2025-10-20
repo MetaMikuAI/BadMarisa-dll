@@ -9,6 +9,8 @@ A mod for Marisa!ReturnTheBook Demo (Only releases)
 
 <img width="501" height="873" alt="image" src="https://github.com/user-attachments/assets/a77feedf-3aa7-4b29-b3a6-4c75810c1330" />
 
+<img width="697" height="833" alt="image" src="https://github.com/user-attachments/assets/78ed1722-c591-424d-8759-1c14c30f57d9" />
+
 
 请注意，毫秒计时器仅供参考，存在难以消除的系统性误差
 
@@ -44,6 +46,7 @@ Marisa!ReturnTheBook! Demo
 - `v0.3`：实现 基础的量化统计显示，包括 `MarisaHP`, 地上的书本数, 各玩偶数, **伪**毫秒计时器等，按 `S` 键切换显示
 - `v0.4`：在对应人物旁边直接显示玩偶统计数，按 `D` 键切换显示。其中勇者琪露诺以 `星号*` 显示
 - `v0.5`：增加伤害榜和回收榜的量化(对接阿求)，`R` 键切换显示榜单，`S` 键切换显示旧统计信息
+- `v0.6`: 增加伤害日志，按 `L` 键切换显示
 
 默认为最新版，如果需要下载旧版本，请自行从 `commit` 历史中 `git checkout`
 
