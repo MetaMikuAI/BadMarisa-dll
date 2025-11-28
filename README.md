@@ -1,18 +1,10 @@
 # BadMarisa-dll
-A mod for Marisa!ReturnTheBook Demo (Only releases)
+A mod for Marisa!ReturnTheBook
 
 ## Mod 功能
 
 量化统计游戏数据并实时显示
 
-<img width="527" height="383" alt="@GG5WFT%MPXWF2S36D4NNGP" src="https://github.com/user-attachments/assets/bff4896f-4e3d-43b3-b595-872ae104c621" />
-
-<img width="501" height="873" alt="image" src="https://github.com/user-attachments/assets/a77feedf-3aa7-4b29-b3a6-4c75810c1330" />
-
-<img width="697" height="833" alt="image" src="https://github.com/user-attachments/assets/78ed1722-c591-424d-8759-1c14c30f57d9" />
-
-
-请注意，毫秒计时器仅供参考，存在难以消除的系统性误差
 
 ## 使用教程
 
@@ -22,7 +14,7 @@ A mod for Marisa!ReturnTheBook Demo (Only releases)
 2. 解压到游戏根目录如下
 
 ```
-Marisa!ReturnTheBook! Demo
+Marisa!ReturnTheBook!
 │  .doorstop_version
 │  changelog.txt
 │  doorstop_config.ini
@@ -42,21 +34,9 @@ Marisa!ReturnTheBook! Demo
 
 ## 版本
 
-- `BadMarisa-BadApple` 按 `Space` 键**清空全部已有**人偶和书本星星，并开始播放 《Bad Apple》，**不可与其他版本共用**
-- `v0.3`：实现 基础的量化统计显示，包括 `MarisaHP`, 地上的书本数, 各玩偶数, **伪**毫秒计时器等，按 `S` 键切换显示
-- `v0.4`：在对应人物旁边直接显示玩偶统计数，按 `D` 键切换显示。其中勇者琪露诺以 `星号*` 显示
-- `v0.5`：增加伤害榜和回收榜的量化(对接阿求)，`R` 键切换显示榜单，`S` 键切换显示旧统计信息
-- `v0.6`：增加伤害日志，按 `L` 键切换显示
-- `v0.7`：移除了 `v0.4` 所增加的功能，因为 bug 极多且难以维护。增加伤害榜中对全局 buff 的修正以及两个榜单的总计(请注意，由于原游戏 ceil 的应用，总伤害 DPS 会等于或略低于实际总伤害 DPS)。重构代码
-- `v0.8`：`Ctrl + S` 手动存档
+- `v1.0.0` 更新至当前 `Marisa!ReturnTheBook!` 正式版，由于游戏已经相当完善，本 mod 只显示当前散落书本数、魔理沙血量以及琴心 B 点数
 
-默认为最新版，如果需要下载旧版本，请自行从 `commit` 历史中 `git checkout`
-
-## 关于开源
-
-涉及部分敏感代码，可能在之后主动开源
-
-> <s>*为赶工做的，代码很乱，不要 `disassemble` 我口牙（有时间会优化的）*</s>
+如果需要下载 Demo 版本(以及 BadApple 版本)，请自行检查历史提交
 
 ## 特别鸣谢
 
