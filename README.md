@@ -5,7 +5,13 @@ A mod for Marisa!ReturnTheBook
 
 量化统计游戏数据并实时显示
 
+v1.0.0
+
 <img width="796" height="504" alt="image" src="https://github.com/user-attachments/assets/fbb17ad7-d166-4e6a-8f6b-558010fc0a48" />
+
+v1.0.1
+
+<img width="681" height="50" alt="image" src="https://github.com/user-attachments/assets/823b4aad-2716-4d1c-965b-6479ba547695" />
 
 ## 使用教程
 
