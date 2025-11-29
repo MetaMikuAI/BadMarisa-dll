@@ -6,10 +6,10 @@ using System;
 
 namespace BadMarisa
 {
-    [BepInPlugin("com.metamiku.badmarisa", "BadMarisa", "1.0.0")]
+    [BepInPlugin("com.metamiku.badmarisa", "BadMarisa", "1.0.1")]
     public class Plugin : BaseUnityPlugin
     {
-        public string pluginInfo = "BadMarisa By MetaMiku v1.0.0";
+        public string pluginInfo = "BadMarisa By MetaMiku v1.0.1";
         private Text myText;
         public Canvas targetCanvas;
         
@@ -86,6 +86,7 @@ namespace BadMarisa
             }
 
             var currentDataHub = ManagerBase<CurrentDataHub>.Instance;
+            var dataHub = ManagerBase<DataHub>.Instance;
             var bookStackList = currentDataHub.bookStackList;
             var bookStack = 0L;
             for (int i = 0; i < bookStackList.Count; i++)
@@ -94,8 +95,11 @@ namespace BadMarisa
             }
             var marisaHP = currentDataHub.marisaHP;
             var pointB = currentDataHub.pointB;
+            var nowPhase = (int)Traverse.Create(currentDataHub).Field("nowPhase").GetValue();
+            var maxStackSys = dataHub.maxStackSys;
+            var maxBookStack = maxStackSys[nowPhase];
 
-            myText.text = $"[BadMarisa v1.0.0] bookStack: {bookStack}    marisaHP: {marisaHP}    B点: {pointB}";
+            myText.text = $"[BadMarisa v1.0.1] bookStack: {bookStack}/{maxBookStack}    marisaHP: {marisaHP}    B点: {pointB}";
         }
     }
 
